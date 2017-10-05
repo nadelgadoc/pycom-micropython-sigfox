@@ -61,7 +61,7 @@ Maintainer: Miguel Luis and Gregory Cristian
 
 #define RADIO_RESET                                 micropy_lpwan_reset_pin_index
 
-#define RADIO_MOSI                                  GPIO27
+#define RADIO_MOSI                                  GPIO18  //original GPIO27
 #define RADIO_MISO                                  GPIO19
 #define RADIO_SCLK                                  GPIO5
 #define RADIO_NSS                                   micropy_lpwan_ncs_pin_index
